@@ -1,0 +1,5 @@
+colorlog
+requests
+ujson
+colorama==0.3.3
+progressbar==2.3
