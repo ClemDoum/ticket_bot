@@ -4,8 +4,18 @@ import sys
 
 from colorlog import ColoredFormatter
 
-FB_ACCESS_TOKEN = "your_fb_access_token"
+# Facebook
+FB_APP_SECRET = "your_fb_app_secret"
+FB_APP_ID = "your_fb_app_id"
 
+# Email notifications settings
+EMAIL_SENDER = "sender_email_address"
+SMTP_HOST = "your_smtp_host_server"
+SMTP_USER = "your_smtp_user"
+SMTP_PASSWORD = "your_smtp_password"
+
+
+WEBBROWSER_ERROR_URL = "http://bluegg.co.uk/404"
 
 def get_root_path():
     return os.path.dirname(os.path.abspath(__file__))
